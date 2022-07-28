@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 3186px;
+    background-color: #F4F6FC;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70.31px;
+    color: #292E47;
+}
+
+h3{
+    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    color: #292E47;    
+}
+
+h5{
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;    
+    color: #292E47;
+}
+
+p { 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6B708D;
+}
+
+a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: #6B708D;
+    text-decoration: none;
+}
+
+/*Classes
+-----------------------------------------------------------*/
+
+.blueButton {
+    background-color: #072AC8;
+    width: 150px;
+    height: 52px;
+    color: white;
+    border: 0;
+}
+
+.headline17px {    
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22.1px;
+}
+
+.section {
+    width: 1100px;
+    margin-left: 170px;
+}
+
+.wideSection {
+    width: 1320px;
+    margin-left: 60px;
+}
+
+.box {
+    width: 340px;
+    background-color: white;
+    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.boxesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learnMoreLink {
+    text-decoration: none;
+    color: #072AC8;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+/* Nav Bar 
+-----------------------------------------------------------*/
+
+nav {
+    height: 122px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+nav .circleLogo {
+    width: 60.53px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;   
+}
+
+nav li {
+    margin: 0 60px;
+}
+
+
+/*Projects Section
+-----------------------------------------------------------*/
+
+#homePage .projectsSection h3 {
+    width: 200px;
+    margin-bottom: 23px;
+}
+
+.projectsSection .boxesContainer img {
+    width: 340px;
+    height: 240px;
+}
+
+.project-box {
+    height: 444px;
+}
+
+.project-box h5 {
+    margin:30px 0 10px 30px ;
+}
+
+.project-box p {
+    margin-left: 30px;
+}
+
+/* CTA Section
+---------------------------------------------------------*/
+
+#CTASection {
+    height: 500px;
+    margin-top: 200px;
+    background-color: #FFC600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CTASection form {
+    display: flex;
+}
+
+#CTASection button {
+    width: 198px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+#CTASection p {
+    margin: 20px 0 50px 0
+}
+
+#emailForm {
+    display: flex;
+    width: 393px;
+    height: 80px;
+    background-color: white;
+}
+
+#emailForm img {
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#emailForm input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*Footer
+-----------------------------------------------------*/
+
+footer {
+    height: 242px;
+    margin-top: 170px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer div:nth-child(1){
+    width: 260px;
+    height: 112px;
+}
+
+footer .circleLogo {
+    width: 98.38px;
+    margin-bottom: 30px ;
+}
+
+footer div:nth-child(2){
+    width: 435px;
+    height: 112px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
+}

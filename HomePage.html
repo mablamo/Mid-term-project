@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Home Page - Ironhacker Mario / Mid Term Project</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/Common.css" />
+    <link rel="stylesheet" href="/css/HomePage.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
@@ -16,9 +17,9 @@
     <nav class="section">
       <img class="circleLogo" src="/logos/circle.svg" alt="Circle Logo" />
       <ul id="menu">
-        <li class="headline17px">Home</li>
-        <li class="headline17px">Projects</li>
-        <li class="headline17px">Services</li>
+        <li><a class="headline17px" href="">Home</a></li>
+        <li><a class="headline17px" href="">Projects</a></li>
+        <li><a class="headline17px" href="">Services</a></li>
       </ul>
       <button class="blueButton headline17px">Contact Us</button>
     </nav>
@@ -32,7 +33,7 @@
         </p>
         <div>
           <button class="blueButton headline17px">Get in touch</button>
-          <p class="headline17px">See our work</p>
+          <a class="headline17px" href="">See our work</a>
         </div>
       </article>
       <div id="heroGuy">
@@ -56,85 +57,97 @@
           <img src="/projects-section/1.jpg" alt="Project 1 Image" />
           <h5>Simplify</h5>
           <p>UI Design & App Development</p>
-          <p class="LearnMoreLink">Learn more</p>
+          <a class="learnMoreLink" href="">Learn more</a>
         </div>
         <div class="box project-box">
           <img src="/projects-section/2.jpg" alt="Project 2 Image" />
           <h5>Dashcoin</h5>
           <p>Web Development</p>
-          <p class="LearnMoreLink">Learn more</p>
+          <a class="learnMoreLink" href="">Learn more</a>
         </div>
         <div class="box project-box">
           <img src="/projects-section/3.jpg" alt="Project 3 Image" />
           <h5>Vectorify</h5>
           <p>User Experience Design</p>
-          <p class="LearnMoreLink">Learn more</p>
+          <a class="learnMoreLink" href="">Learn more</a>
         </div>
       </div>
     </section>
 
-    <section id="TestimonialSection">
-      <div class="emojis">
-        <img src="/testimonial-section/memoji-1.png" alt="emoji 1" />
-        <img src="/testimonial-section/memoji-3.png" alt="emoji 3" />
-      </div>
-      <div>
-        <h3>Hear What Our Clients Have to Say</h3>
-        <h5>
-          “Circle helped us through every stage of our startup. We really
-          enjoyed working with you.”
-        </h5>
-        <div>
-          <img
-            src="/testimonial-section/profile.png"
-            alt="Kristin Watson Image"
-          />
-          <div>
-            <p id="kristin">Kristin Watson</p>
-            <p>Booking.com</p>
-          </div>
-        </div>
-      </div>
-      <div class="emojis">
-        <img src="/testimonial-section/memoji-2.png" alt="emoji 2" />
-        <img src="/testimonial-section/memoji-4.png" alt="emoji 4" />
+    <section id="testimonialSection" class="wideSection">
+      <img
+        class="emoji"
+        src="/testimonial-section/memoji-1.png"
+        alt="emoji 1"
+      />
+      <img
+        class="emoji"
+        src="/testimonial-section/memoji-2.png"
+        alt="emoji 2"
+      />
+      <img
+        class="emoji"
+        src="/testimonial-section/memoji-3.png"
+        alt="emoji 3"
+      />
+      <img
+        class="emoji"
+        src="/testimonial-section/memoji-4.png"
+        alt="emoji 4"
+      />
+      <h3>Hear What Our Clients Have to Say</h3>
+      <h5>
+        “Circle helped us through every stage of our startup. We really enjoyed
+        working with you.”
+      </h5>
+      <div id="kristinBox">
+        <img
+          src="/testimonial-section/profile.png"
+          alt="Kristin Watson Image"
+        />
+        <p>Kristin Watson</p>
+        <p>Booking.com</p>
       </div>
     </section>
 
-    <section id="ServicesSection" class="section">
+    <section id="servicesSection" class="section">
       <h3>Our Services</h3>
       <div class="boxesContainer">
         <div class="box services-box">
-          <img src="/services-section/icons/1.svg" alt="Pen Img" />
+          <div><img src="/services-section/icons/1.svg" alt="Pen Img" /></div>
           <h5>User Interface Design</h5>
           <p>
             Circle provides you with a stunning user interface design that is
             accessible to everyone.
           </p>
-          <p class="LearnMoreLink">Learn more</p>
+          <a class="learnMoreLink" href="">Learn more</a>
         </div>
         <div class="box services-box">
-          <img src="/services-section/icons/2.svg" alt="Cursor Img" />
+          <div>
+            <img src="/services-section/icons/2.svg" alt="Cursor Img" />
+          </div>
           <h5>User Experience Design</h5>
           <p>
             Circle always focuses on delivering the best user experience to your
             customers.
           </p>
-          <p class="LearnMoreLink">Learn more</p>
+          <a class="learnMoreLink" href="">Learn more</a>
         </div>
         <div class="box services-box">
-          <img src="/services-section/icons/3.svg" alt="Document Img" />
+          <div>
+            <img src="/services-section/icons/3.svg" alt="Document Img" />
+          </div>
           <h5>Application Development</h5>
           <p>
             We develop high-quality mobile and web applications using the latest
             technology stack.
           </p>
-          <p class="LearnMoreLink">Learn more</p>
+          <a class="learnMoreLink" href="">Learn more</a>
         </div>
       </div>
     </section>
 
-    <section id="CTASection">
+    <section id="CTASection" class="wideSection">
       <h3>Do you have any questions?</h3>
       <p>Let us help you!</p>
       <div>
@@ -143,7 +156,7 @@
             <img src="/newsletter/icon/mail.svg" alt="mail icon" />
             <input type="email" placeholder="Enter your email" />
           </div>
-          <button type="submit" class="blueButton">Subscribe</button>
+          <button type="submit" class="blueButton headline17px">Subscribe</button>
         </form>
       </div>
     </section>
@@ -154,12 +167,12 @@
         <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
       </div>
       <div>
-        <p>Team</p>
-        <p>Services</p>
-        <p>About Us</p>
-        <p>Press</p>
-        <p>Projects</p>
-        <p>Privacy Policy</p>
+        <a href="">Team</a>
+        <a href="">Services</a>
+        <a href="">About Us</a>
+        <a href="">Press</a>
+        <a href="">Projects</a>
+        <a href="">Privacy Policy</a>
       </div>
     </footer>
   </body>

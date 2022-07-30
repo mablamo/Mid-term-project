@@ -64,6 +64,14 @@ input, textarea {
     height: 52px;
     color: white;
     border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueButton:hover {
+    transition-duration: 200ms;
+    box-shadow: 0 0 10px 1px #292E47;
 }
 
 .headline17px {    
@@ -101,6 +109,16 @@ input, textarea {
     bottom: 30px;
     left: 30px;
 }
+/*
+Hidding responsive elements
+-----------------------------------------------------------*/
+#menuButton {
+    display: none;
+}
+
+.responsiveLink {
+    display: none;
+}
 
 /* Nav Bar 
 -----------------------------------------------------------*/
@@ -125,6 +143,14 @@ nav li {
     margin: 0 60px;
 }
 
+nav li a:hover{
+    transition-property: weigth;
+    transition-property: color;
+    font-weight: 600;
+    color: #072AC8;
+    transition-duration: 300ms;
+    
+}
 
 /*Projects Section
 -----------------------------------------------------------*/

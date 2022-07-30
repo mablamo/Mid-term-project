@@ -1,0 +1,171 @@
+/* Movil
+----------------------------------*/
+body {
+    width: 100%;
+}
+
+/*Classes
+-----------------------------------------------------------*/
+
+
+.section {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.wideSection {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.boxesContainer {
+    flex-direction: column;
+}
+
+/* Nav Bar 
+-----------------------------------------------------------*/
+
+nav {
+    height: 80px;
+    justify-content: center;
+}
+#menuButton {
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 30px;
+    width: 20px;
+}
+
+#homePage ul, #homePage a {
+    display: none;
+}
+
+nav .circleLogo {
+    width: 80px;
+}
+
+/*Projects Section
+-----------------------------------------------------------*/
+
+#homePage .projectsSection h3 {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.projectsSection img  {
+    display: none;
+    
+}
+
+.project-box {
+    height: 150px;
+    overflow: hidden;
+    background-image: url(/projects-section/1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projectsSection .boxesContainer div:nth-child(1){
+    background-image: url(/projects-section/1.jpg);
+}
+.projectsSection .boxesContainer div:nth-child(2){
+    background-image: url(/projects-section/2.jpg);
+}
+.projectsSection .boxesContainer div:nth-child(3){
+    background-image: url(/projects-section/3.jpg);
+}
+
+.project-box h5 {
+    margin: 0;
+    font-weight: 600;
+    color:#f2f4fc;
+    text-shadow: 0px 0px 3px #072ac8;
+  
+}
+
+.project-box p {
+    display: none;
+}
+
+/* CTA Section
+---------------------------------------------------------*/
+
+#CTASection {
+    height: 500px;
+    margin-top: 200px;
+    background-color: #FFC600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CTASection form {
+    display: flex;
+}
+
+#CTASection button {
+    width: 198px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+#CTASection p {
+    margin: 20px 0 50px 0
+}
+
+#emailForm {
+    display: flex;
+    width: 393px;
+    height: 80px;
+    background-color: white;
+}
+
+#emailForm img {
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#emailForm input {
+    width: 100%;
+}
+
+/*Footer
+-----------------------------------------------------*/
+
+footer {
+    height: 242px;
+    margin-top: 170px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer div:nth-child(1){
+    width: 260px;
+    height: 112px;
+}
+
+footer .circleLogo {
+    width: 98.38px;
+    margin-bottom: 30px ;
+}
+
+footer div:nth-child(2){
+    width: 435px;
+    height: 112px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
+}

@@ -2,6 +2,7 @@
 ----------------------------------*/
 body {
     width: 100%;
+    height: 100%;
 }
 
 /*Classes
@@ -35,11 +36,17 @@ nav {
     justify-content: center;
 }
 #menuButton {
+    height: 30px;
     display: flex;
     position: absolute;
     left: 5%;
-    top: 30px;
+    top: 25px;
     width: 20px;
+    background-image: url(/responsive-img/hamburguerButton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
 }
 
 #homePage ul, #homePage a {
@@ -50,12 +57,38 @@ nav .circleLogo {
     width: 80px;
 }
 
+/* estado final transicion
+    #menuResponsive a {
+        display: flex;
+        margin:15px 0;
+    }
+    
+    #menuResponsive {
+        display: flex;
+        position: fixed;
+        left: 0;
+        top:20px;
+        padding: 30px 0 20px 20px;
+        flex-direction: column;
+        background-color:#D1EDFF;
+        width: 30%;
+        border: 2px solid #6B708D;
+        border-radius: 5%;
+    }
+
+    #menuButton {
+        background-color: #D1EDFF;
+    }
+
+
+
+
 /*Projects Section
 -----------------------------------------------------------*/
 
 #homePage .projectsSection h3 {
     width: 100%;
-    margin-bottom: 23px;
+    margin: 23px;
 }
 
 .projectsSection img  {
@@ -102,70 +135,80 @@ nav .circleLogo {
 ---------------------------------------------------------*/
 
 #CTASection {
-    height: 500px;
-    margin-top: 200px;
-    background-color: #FFC600;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 #CTASection form {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #CTASection button {
-    width: 198px;
-    height: 80px;
-    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    margin: 15px 0;
+}
+
+#CTASection h3 {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 #CTASection p {
-    margin: 20px 0 50px 0
+    display: none;
+}
+
+#CTASection > div {
+    width: 80%;
 }
 
 #emailForm {
     display: flex;
-    width: 393px;
-    height: 80px;
+    width: 100%;
+    height: 40px;
     background-color: white;
 }
 
 #emailForm img {
-    width: 30px;
-    margin-left: 30px;
-    margin-right: 10px;
+    display: none;
 }
 
 #emailForm input {
-    width: 100%;
+    text-align: center;
 }
 
 /*Footer
 -----------------------------------------------------*/
 
 footer {
-    height: 242px;
-    margin-top: 170px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 10px;
 }
 
 footer div:nth-child(1){
-    width: 260px;
-    height: 112px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 footer .circleLogo {
-    width: 98.38px;
-    margin-bottom: 30px ;
+    margin: 40px 0 20px 0;
 }
 
 footer div:nth-child(2){
-    width: 435px;
-    height: 112px;
+    width: 100%;
+    height: 100%;
+}
+
+#homePage footer a{
+    text-align: center;
+    margin: 20px 0;
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
 }

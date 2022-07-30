@@ -1,0 +1,69 @@
+/* Hero Section
+---------------------------------------------------------*/
+
+#heroSection {
+    margin-top: 20px;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+#heroSection article {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#heroGuy {   
+    display: none;
+}
+
+#heroSection article div {
+    display:none
+}
+
+#heroSection p {
+    width: 100%;
+    margin: 0;
+}
+
+/* Client Section 
+----------------------------------------------------------*/
+
+#clientSection {
+    display: none;
+}
+
+/*Testimonial Secion
+----------------------------------------------------------*/
+
+#testimonialSection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+
+#testimonialSection > img, #testimonialSection > h3 {
+    display: none;
+}
+
+#testimonialSection h5 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*Services Section
+----------------------------------------------------*/
+
+#servicesSection {
+    margin-top: 40px;
+}
+
+#servicesSection h3{
+    margin-bottom: 10px;
+}

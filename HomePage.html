@@ -7,6 +7,8 @@
     <title>Circle Home Page - Ironhacker Mario / Mid Term Project</title>
     <link rel="stylesheet" href="/css/Common.css" />
     <link rel="stylesheet" href="/css/HomePage.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="/css/CommonResponsive.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="/css/HomePageResponsive.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
@@ -15,14 +17,21 @@
 
   <body id="homePage">
     <nav class="section">
+      <div id="menuResponsive">
+        <a class="headline17px" href="/HomePage.html">Home</a>
+        <a class="headline17px" href="#projects">Projects</a>
+        <a class="headline17px" href="#servicesSection">Services</a>
+      </div>
+      <button id ="menuButton" src="/responsive-img/hamburguerButton.png" alt="Menu button"></button>
       <img class="circleLogo" src="/logos/circle.svg" alt="Circle Logo" />
       <ul id="menu">
-        <li><a class="headline17px" href="">Home</a></li>
-        <li><a class="headline17px" href="">Projects</a></li>
-        <li><a class="headline17px" href="">Services</a></li>
+        <li><a class="headline17px" href="/HomePage.html">Home</a></li>
+        <li><a class="headline17px" href="#projects">Projects</a></li>
+        <li><a class="headline17px" href="#servicesSection">Services</a></li>
       </ul>
-      <button class="blueButton headline17px">Contact Us</button>
+      <a class="blueButton headline17px" href="/ContactPage.html">Contact Us</a>
     </nav>
+    
 
     <section id="heroSection" class="section">
       <article>
@@ -32,8 +41,8 @@
           develop astonishing websites and mobile apps.
         </p>
         <div>
-          <button class="blueButton headline17px">Get in touch</button>
-          <a class="headline17px" href="">See our work</a>
+          <a href= "/ContactPage.html" class="blueButton headline17px">Get in touch</a>
+          <a class="headline17px" href="/ProjectPage.html">See our work</a>
         </div>
       </article>
       <div id="heroGuy">
@@ -43,33 +52,33 @@
     </section>
 
     <section id="clientSection" class="section">
-      <img src="/logos/airbnb-logo.svg" alt="Airbnb Logo" />
-      <img src="/logos/google-logo.svg" alt="Google logo" />
-      <img src="/logos/microsoft-logo.svg" alt="Microsoft logo" />
-      <img src="/logos/fedex-logo.svg" alt="FedEx logo" />
-      <img src="/logos/amazon-logo.svg" alt="Amazon logo" />
+      <a href="https://www.airbnb.es" target="_blank"><img src="/logos/airbnb-logo.svg" alt="Airbnb Logo" /></a>
+      <a href="https://www.microsoft.com" target="_blank"><img src="/logos/microsoft-logo.svg" alt="Microsoft logo" /></a>
+      <a href="https://www.fedex.com" target="_blank"><img src="/logos/fedex-logo.svg" alt="FedEx logo" /></a>
+      <a href="https://www.amazon.es" target="_blank"><img src="/logos/amazon-logo.svg" alt="Amazon logo" /></a>
+      <a href="https://www.google.es" target="_blank"><img src="/logos/google-logo.svg" alt="Google logo" /></a>
     </section>
 
-    <section class="projectsSection section">
+    <section id="projects" class="projectsSection section">
       <h3>Recent Projects</h3>
       <div class="boxesContainer">
         <div class="box project-box">
           <img src="/projects-section/1.jpg" alt="Project 1 Image" />
           <h5>Simplify</h5>
           <p>UI Design & App Development</p>
-          <a class="learnMoreLink" href="">Learn more</a>
+          <a class="learnMoreLink" href="/ProjectPage.html">Learn more</a>
         </div>
         <div class="box project-box">
           <img src="/projects-section/2.jpg" alt="Project 2 Image" />
           <h5>Dashcoin</h5>
           <p>Web Development</p>
-          <a class="learnMoreLink" href="">Learn more</a>
+          <a class="learnMoreLink" href="/ProjectPage.html">Learn more</a>
         </div>
         <div class="box project-box">
           <img src="/projects-section/3.jpg" alt="Project 3 Image" />
           <h5>Vectorify</h5>
           <p>User Experience Design</p>
-          <a class="learnMoreLink" href="">Learn more</a>
+          <a class="learnMoreLink" href="/ProjectPage.html">Learn more</a>
         </div>
       </div>
     </section>
@@ -114,7 +123,9 @@
       <h3>Our Services</h3>
       <div class="boxesContainer">
         <div class="box services-box">
-          <div><img src="/services-section/icons/1.svg" alt="Pen Img" /></div>
+          <div>
+            <img src="/services-section/icons/1.svg" alt="Pen Img" />
+          </div>
           <h5>User Interface Design</h5>
           <p>
             Circle provides you with a stunning user interface design that is

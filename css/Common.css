@@ -120,6 +120,10 @@ Hidding responsive elements
     display: none;
 }
 
+#menuResponsive { 
+    display: hidden;
+}
+
 /* Nav Bar 
 -----------------------------------------------------------*/
 

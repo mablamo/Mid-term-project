@@ -33,7 +33,7 @@ h5{
     color: #292E47;
 }
 
-p, span { 
+p, span, label { 
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -46,6 +46,13 @@ a {
     line-height: 25.5px;
     color: #6B708D;
     text-decoration: none;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 /*Classes
@@ -185,11 +192,7 @@ nav li {
 }
 
 #emailForm input {
-    border: none;
-    outline: none;
     width: 100%;
-    font-size: 17px;
-    font-weight: 400;
 }
 
 /*Footer

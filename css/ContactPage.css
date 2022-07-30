@@ -1,0 +1,59 @@
+h1 {
+    margin: 143px 0 80px 0;
+}
+
+form {
+    width: 1100px;
+    height: 660px;
+    display: grid;
+    grid-template: repeat(5, 1fr) 2.5fr 1fr / 1fr 1fr ;
+    grid-column-gap: 40px;
+}
+
+label {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    background-color: #6B708D1A;
+    padding: 20px;
+    resize: none;
+}
+
+form input:nth-child(2){
+    grid-area: 2 / 1 / 2 / span 2;
+}
+
+form label:nth-child(3){
+    grid-area: 3 / 1 ;
+}
+
+
+form input:nth-child(4){
+    grid-area: 4 / 1 ;
+}
+
+form label:nth-child(5){
+    grid-area: 3 / 2 ;
+}
+
+form input:nth-child(6){
+    grid-area: 4 / 2;
+}
+
+form label:nth-child(7){
+    grid-area: 5 / 1 ;
+}
+
+form textarea {
+    grid-area: 6 / 1 / 6 / span 2;
+}
+
+form .blueButton {
+    grid-area: 7 / 1 / 7 / span 2;
+    width: 1100px;
+    height: 80px;
+    margin-top: 40px;
+}
+

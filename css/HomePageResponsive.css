@@ -4,8 +4,12 @@
 #heroSection {
     margin-top: 20px;
     flex-direction: column;
-    height: 100%;
+    height: 400px;
     align-items: center;
+    background-image: url(/hero-section/hero-image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #heroSection article {
@@ -15,16 +19,36 @@
 }
 
 #heroGuy {   
-    display: none;
+    background-image: none;
 }
 
-#heroSection article div {
-    display:none
+#heroSection img {
+    position: relative;
+    width: 160px;  
+}
+
+#heroSection img:nth-child(1) {
+    left: 80px;
+    top: -160px;
+    z-index: +1;
+}
+
+#heroSection img:nth-child(2) {
+    left: -40px;
+    top: -110px;
+
+}
+
+#heroSection h1 {
+    font-size: 40px;
+    line-height: 60px;
+    position: absolute;
+    text-shadow: 0 0 6px white;
+    bottom: 200px;
 }
 
 #heroSection p {
-    width: 100%;
-    margin: 0;
+    display: none;
 }
 
 /* Client Section 
@@ -66,4 +90,26 @@
 
 #servicesSection h3{
     margin-bottom: 10px;
+}
+
+.services-box {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 110px;
+    transition: all 150ms ease-out;
+}
+
+.services-box h5 {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 38px;
+}
+
+.services-box:hover {
+    transition-property: height;
+    height: 220px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }

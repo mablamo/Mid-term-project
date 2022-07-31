@@ -35,21 +35,8 @@ nav {
     height: 80px;
     justify-content: center;
 }
-#menuButton {
-    height: 30px;
-    display: flex;
-    position: absolute;
-    left: 5%;
-    top: 25px;
-    width: 20px;
-    background-image: url(/responsive-img/hamburguerButton.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-}
 
-#homePage ul, #homePage a {
+#homePage ul, #homePage a,#projectPage ul, #projectPage a, #contactPage ul, #contactPage a {
     display: none;
 }
 
@@ -57,43 +44,51 @@ nav .circleLogo {
     width: 80px;
 }
 
-/* estado final transicion
+
     #menuResponsive a {
         display: flex;
         margin:15px 0;
     }
+
+    #menuResponsive img {
+        position: relative;
+        width: 25px;
+    }
     
     #menuResponsive {
         display: flex;
-        position: fixed;
+        position: absolute;
+        top: 20px;
         left: 0;
-        top:20px;
-        padding: 30px 0 20px 20px;
+        padding: 5px 0 20px 15px;
         flex-direction: column;
-        background-color:#D1EDFF;
-        width: 30%;
+        background-color:#F4F6FC;
+        width: 30px;
+        height: 20px;
+        overflow: hidden;
+        border-radius: 3px;
+        transition: all 500ms ease-out;
+        z-index: +2;
+    }
+
+    #menuResponsive:hover {
+        width: 80px;
+        height: 160px;
         border: 2px solid #6B708D;
-        border-radius: 5%;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
     }
-
-    #menuButton {
-        background-color: #D1EDFF;
-    }
-
-
-
 
 /*Projects Section
 -----------------------------------------------------------*/
 
 #homePage .projectsSection h3 {
     width: 100%;
-    margin: 23px;
+    margin: 80px 0 13px 0
 }
 
 .projectsSection img  {
-    display: none;
-    
+    display: none;   
 }
 
 .project-box {
@@ -107,7 +102,6 @@ nav .circleLogo {
     align-items: center;
     justify-content: center;
 }
-
 
 .projectsSection .boxesContainer div:nth-child(1){
     background-image: url(/projects-section/1.jpg);
@@ -124,11 +118,20 @@ nav .circleLogo {
     font-weight: 600;
     color:#f2f4fc;
     text-shadow: 0px 0px 3px #072ac8;
-  
 }
 
 .project-box p {
     display: none;
+}
+
+#homePage #projects a{
+    display: block;
+    position: absolute;
+    color: transparent;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    top: 0;
 }
 
 /* CTA Section

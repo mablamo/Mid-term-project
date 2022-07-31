@@ -121,7 +121,7 @@ Hidding responsive elements
 }
 
 #menuResponsive { 
-    display: hidden;
+    display: none;
 }
 
 /* Nav Bar 

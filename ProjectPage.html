@@ -10,15 +10,24 @@
     </title>
     <link rel="stylesheet" href="/css/Common.css" />
     <link rel="stylesheet" href="/css/projectPage.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="/css/CommonResponsive.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="/css/projectPageResponsive.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
+    <script type="text/javascript" src="/index.js"></script>
   </head>
 
   
   <body id="projectPage">
     <nav class="section">
+      <div id="menuResponsive">
+        <img src="/responsive-img/hamburguerButton.png" alt="Menu button">
+        <a class="headline17px" href="/HomePage.html">Home</a>
+        <a class="headline17px" href="#projects">Projects</a>
+        <a class="headline17px" href="#servicesSection">Services</a>
+      </div>
       <img class="circleLogo" src="/logos/circle.svg" alt="Circle Logo" />
       <ul id="menu">
         <li><a class="headline17px" href="/HomePage.html">Home</a></li>
@@ -30,6 +39,7 @@
 
     <section class="projectDetailed section">
         <h1>Simplify</h1>
+        <button id="arrow"></button>
         <div>
             <h5>UI Design & App Development</h5>
             <p>Completed on June 22,2021</p>

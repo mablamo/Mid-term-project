@@ -124,6 +124,10 @@ Hidding responsive elements
     display: none;
 }
 
+#arrow {
+    display: none;
+}
+
 /* Nav Bar 
 -----------------------------------------------------------*/
 

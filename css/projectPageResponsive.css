@@ -11,7 +11,7 @@ h1 {
     background-blend-mode: difference;
     overflow: hidden;
     height: 400px;
-    transition: height;
+    transition: all;
     transition-duration: 500ms;
 }
 

@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 1440px;
+    width: 100%;
     height: 3186px;
     background-color: #F4F6FC;
 }
@@ -81,17 +81,17 @@ input, textarea {
 }
 
 .section {
-    width: 1100px;
-    margin-left: 170px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .wideSection {
-    width: 1320px;
-    margin-left: 60px;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .box {
-    width: 340px;
+    width: 30%;
     background-color: white;
     box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -169,7 +169,7 @@ nav li a:hover{
 }
 
 .projectsSection .boxesContainer img {
-    width: 340px;
+    width: 100%;
     height: 240px;
 }
 

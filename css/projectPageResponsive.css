@@ -11,6 +11,8 @@ h1 {
     background-blend-mode: difference;
     overflow: hidden;
     height: 400px;
+    transition: height;
+    transition-duration: 500ms;
 }
 
 #arrow {

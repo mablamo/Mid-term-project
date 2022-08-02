@@ -1,15 +1,17 @@
-let projectDetailed = document.querySelector(".projectDetailed")
-let i=0
+window.onload = () => {
+    const arrow = document.querySelector("#arrow");
+    const section = document.querySelector(".projectDetailed")
+    let i=0
+    function changeSize() {
+        if(i==0){
+            i++
+            section.style.height = "100%"
+        } else {
+            i--
+            section.style.height = "400px"
+        }
 
-function expandSection(){
-    if(i==0){
-        i++
-        document.querySelector(".projectDetailed").style.height = "800px"
-    } else {
-        1--
-        document.querySelector(".projectDetailed").style.height = "400px"
     }
-    console.log("welldone")
+    arrow.addEventListener("click", changeSize)
 }
 
-document.querySelector("#arrow").onclick = expandSection()

@@ -128,6 +128,10 @@ Hidding responsive elements
     display: none;
 }
 
+#contactResponsive {
+    display: none;
+}
+
 /* Nav Bar 
 -----------------------------------------------------------*/
 

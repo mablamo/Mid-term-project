@@ -1,5 +1,5 @@
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     text-shadow: 0 0 6px whitesmoke;
 }
@@ -15,19 +15,41 @@ h1 {
     transition-duration: 500ms;
 }
 
+.projectDetailed {
+    background-image: url(/projects-section/1.jpg);
+    background-position: center;
+    overscroll-behavior-block: contain;
+    background-size: cover;
+    background-blend-mode: difference;
+    overflow: hidden;
+    height: 400px;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.projectOpened {
+    height: 100%;
+    transition: all;
+    transition-duration: 500ms;
+}
+
 #arrow {
     display: block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #ecf7ff70!important;
-    position: absolute;
-    left: 43%;
-    top:  405px;
+    position: relative;
+    left: 40%;
+    top: -55px;
     background-image: url(/responsive-img/arrow.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.arrowDown {
+    transform: rotate(180deg);
 }
 
 
@@ -48,7 +70,7 @@ h1 {
     text-shadow: 0 0 6px whitesmoke;
 }
 
-.projectDetailed img:nth-child(4) {
+.projectDetailed img:nth-child(3) {
     display: none;
 }
 .projectDetailed > p, br {

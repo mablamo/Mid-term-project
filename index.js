@@ -1,16 +1,17 @@
 window.onload = () => {
     const arrow = document.querySelector("#arrow");
     const section = document.querySelector(".projectDetailed")
-    let i=0
+    section.setAttribute("class","projectDetailed section")
+    arrow.removeAttribute("class")
+    
     function changeSize() {
-        if(i==0){
-            i++
-            section.style.height = "100%"
+        if(section.getAttribute("class") == "projectDetailed projectOpened section"){
+            section.setAttribute("class","projectDetailed section")
+            arrow.removeAttribute("class")
         } else {
-            i--
-            section.style.height = "400px"
+            section.setAttribute("class","projectDetailed projectOpened section")
+            arrow.setAttribute("class", "arrowDown")
         }
-
     }
     arrow.addEventListener("click", changeSize)
 }

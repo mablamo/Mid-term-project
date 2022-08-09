@@ -6,7 +6,6 @@
 
 body {
     width: 100%;
-    height: 3186px;
     background-color: #F4F6FC;
 }
 
@@ -166,6 +165,10 @@ nav li a:hover{
 
 /*Projects Section
 -----------------------------------------------------------*/
+
+#projects {
+    margin-top: 0%;
+}
 
 #homePage .projectsSection h3 {
     width: 200px;

@@ -89,3 +89,14 @@ h1 {
 #CTASection {
     margin-top: 120px;
 }
+
+.projectsSection .boxesContainer div:nth-child(1) {
+    background-image: url(/projects-section/4.jpg);
+  }
+  .projectsSection .boxesContainer div:nth-child(2) {
+    background-image: url(/projects-section/5.jpg);
+  }
+  .projectsSection .boxesContainer div:nth-child(3) {
+    background-image: url(/projects-section/6.jpg);
+  }
+  

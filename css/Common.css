@@ -1,265 +1,265 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    width: 100%;
-    background-color: #F4F6FC;
+  width: 100%;
+  background-color: #f4f6fc;
 }
 
 h1 {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70.31px;
-    color: #292E47;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70.31px;
+  color: #292e47;
 }
 
-h3{
-    
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 46.88px;
-    color: #292E47;    
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.88px;
+  color: #292e47;
 }
 
-h5{
-    
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28.13px;    
-    color: #292E47;
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  color: #292e47;
 }
 
-p, span, label { 
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #6B708D;
+p,
+span,
+label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #6b708d;
 }
 
 a {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 25.5px;
-    color: #6B708D;
-    text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  color: #6b708d;
+  text-decoration: none;
 }
 
-input, textarea {
-    border: none;
-    outline: none;
-    font-size: 17px;
-    font-weight: 400;
+input,
+textarea {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 /*Classes
 -----------------------------------------------------------*/
 
 .blueButton {
-    background-color: #072AC8;
-    width: 150px;
-    height: 52px;
-    color: white;
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #072ac8;
+  width: 150px;
+  height: 52px;
+  color: white;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blueButton:hover {
-    transition-duration: 200ms;
-    box-shadow: 0 0 10px 1px #292E47;
+  transition-duration: 200ms;
+  box-shadow: 0 0 10px 1px #292e47;
 }
 
-.headline17px {    
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 22.1px;
+.headline17px {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22.1px;
 }
 
 .section {
-    width: 80%;
-    margin-left: 10%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .wideSection {
-    width: 90%;
-    margin-left: 5%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .box {
-    width: 30%;
-    background-color: white;
-    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
-    position: relative;
+  width: 30%;
+  background-color: white;
+  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .boxesContainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .learnMoreLink {
-    text-decoration: none;
-    color: #072AC8;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
+  text-decoration: none;
+  color: #072ac8;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }
 /*
 Hidding responsive elements
 -----------------------------------------------------------*/
 #menuButton {
-    display: none;
+  display: none;
 }
 
 .responsiveLink {
-    display: none;
+  display: none;
 }
 
-#menuResponsive { 
-    display: none;
+#menuResponsive {
+  display: none;
 }
 
 #arrow {
-    display: none;
+  display: none;
 }
 
 #contactResponsive {
-    display: none;
+  display: none;
 }
 
 /* Nav Bar 
 -----------------------------------------------------------*/
 
 nav {
-    height: 122px;
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav .circleLogo {
-    width: 60.53px;
+  width: 60.53px;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;   
+  display: flex;
+  list-style-type: none;
 }
 
 nav li {
-    margin: 0 60px;
+  margin: 0 60px;
 }
 
-nav li a:hover{
-    transition-property: weigth;
-    transition-property: color;
-    font-weight: 600;
-    color: #072AC8;
-    transition-duration: 300ms;
-    
+nav li a:hover {
+  transition-property: weigth;
+  transition-property: color;
+  font-weight: 600;
+  color: #072ac8;
+  transition-duration: 300ms;
 }
 
 /*Projects Section
 -----------------------------------------------------------*/
 
 #projects {
-    margin-top: 0%;
+  margin-top: 0%;
 }
 
 #homePage .projectsSection h3 {
-    width: 200px;
-    margin-bottom: 23px;
+  width: 200px;
+  margin-bottom: 23px;
 }
 
 .projectsSection .boxesContainer img {
-    width: 100%;
-    height: 240px;
+  width: 100%;
+  height: 240px;
 }
 
 .project-box {
-    height: 444px;
+  height: 444px;
 }
 
 .project-box h5 {
-    margin:30px 0 10px 30px ;
+  margin: 30px 0 10px 30px;
 }
 
 .project-box p {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 /* CTA Section
 ---------------------------------------------------------*/
 
 #CTASection {
-    height: 500px;
-    margin-top: 200px;
-    background-color: #FFC600;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 500px;
+  margin-top: 200px;
+  background-color: #ffc600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #CTASection form {
-    display: flex;
+  display: flex;
 }
 
 #CTASection button {
-    width: 198px;
-    height: 80px;
-    margin-left: 20px;
+  width: 198px;
+  height: 80px;
+  margin-left: 20px;
 }
 
 #CTASection p {
-    margin: 20px 0 50px 0
+  margin: 20px 0 50px 0;
 }
 
 #emailForm {
-    display: flex;
-    width: 393px;
-    height: 80px;
-    background-color: white;
+  display: flex;
+  width: 393px;
+  height: 80px;
+  background-color: white;
 }
 
 #emailForm img {
-    width: 30px;
-    margin-left: 30px;
-    margin-right: 10px;
+  width: 30px;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 
 #emailForm input {
-    width: 100%;
+  width: 100%;
 }
 
 /*Footer
 -----------------------------------------------------*/
 
 footer {
-    height: 242px;
-    margin-top: 170px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+  height: 242px;
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer div:nth-child(1){
-    width: 260px;
-    height: 112px;
+footer div:nth-child(1) {
+  width: 260px;
+  height: 112px;
 }
 
 footer .circleLogo {
-    width: 98.38px;
-    margin-bottom: 30px ;
+  width: 98.38px;
+  margin-bottom: 30px;
 }
 
-footer div:nth-child(2){
-    width: 435px;
-    height: 112px;
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
+footer div:nth-child(2) {
+  width: 435px;
+  height: 112px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 }

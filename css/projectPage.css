@@ -1,24 +1,23 @@
 /*Project Detailed Section
 ------------------------------------------------------------*/
 
-.projectDetailed {   
-    margin-top: 140px;
+.projectDetailed {
+  margin-top: 140px;
 }
 
 .projectDetailed div {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .projectDetailed img {
-    width: 100%;
-    height: 444px;
-    margin-top: 80px;
-    margin-bottom: 70px;
-    
+  width: 100%;
+  height: 444px;
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 
 #projectPage .projectsSection h3 {
-    margin: 70px 0;
+  margin: 70px 0;
 }
